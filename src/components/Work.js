@@ -27,17 +27,15 @@ const Work = () => {
             </div>
 
           </div>
-           <a href='https://bnb-rental.vercel.app/' target="_blank" rel="noreferrer">
-
           <div className='group relative overflow-hidden border-2 border-white/50 rounded-x1'>
             <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300 '></div>
             <img className='group-hover:scale-125 transition-all duration-500' src={img2} alt=''></img>
             <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
               <span className='text-gradient'>Full-Stack Website</span></div>
             <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-              <span className='text-3xl text-white'>Airbnb-Clone</span>
+              <span className='text-3xl text-white'><a href='https://bnb-rental.vercel.app/'>Airbnb-Clone</a></span>
             </div>
-          </div></a>
+          </div>
         </motion.div>
         <motion.div 
                                 variants={fadeIn('left',0.2)}
@@ -45,24 +43,21 @@ const Work = () => {
                                 whileInView={'show'}
                                 viewport={{once:false,amount:0.3}}
         className='flex-1 flex flex-col gap-y-10'>
-           <a href='https://movie-zone-eta.vercel.app/' target="_blank" rel="noreferrer">
-
           <div className='group relative overflow-hidden border-2 border-white/50 rounded-x1'>
               <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300 '></div>
               <img className='group-hover:scale-125 transition-all duration-500' src={img1} alt=''></img>
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
                 <span className='text-gradient'>Frontend Website</span></div>
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                <span className='text-3xl text-white'>Movie App</span>
+                <span className='text-3xl text-white'><a href='https://movie-zone-eta.vercel.app/'>Movie App</a></span>
               </div>
-            </div></a>
-
+            </div>
             <a href='https://gym-mate-tony.vercel.app/' target="_blank" rel="noreferrer">
             <div className='group relative overflow-hidden border-2 border-white/50 rounded-x1'>
               <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300 '></div>
               <img className='group-hover:scale-125 transition-all duration-500' src={img3} alt=''></img>
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                <span className='text-gradient'>Frontend Website</span></div>
+                <span className='text-gradient'>E-Commerse Website</span></div>
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
                 <span className='text-3xl text-white'>Gym-Mate</span>
               </div>
