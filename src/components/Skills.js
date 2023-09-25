@@ -68,7 +68,7 @@ const Skills = () => {
          className='flex-1'>
           <div>
             {skills.map((skills,index)=>{
-              const{name,description,link} = skills
+              const{name,description,link,url} = skills
               return(
                 <div className='border-b border-white/20 h-[146px] mb-[38px] flex' key={index}>
                   <div className='max-w-[476px]'>
