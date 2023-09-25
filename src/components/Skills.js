@@ -5,30 +5,35 @@ import { fadeIn } from '../variants';
 import { Link } from 'react-scroll';
 const skills = [
   {
-    name: 'Web-Developer',
-    description: 
-    'Experienced full-stack web developer adept at creating seamless user interfaces and robust back-end solutions for web applications',
+    name: 'Web Developer',
+    description:
+      'Experienced full-stack web developer adept at creating seamless user interfaces and robust back-end solutions for web applications',
     link: 'Explore More',
+    url: 'https://kurmi-sourav.vercel.app/' 
   },
   {
-    name: 'App-Developer',
-    description: 
-    'As a capable Flutter developer, I excel at orchestrating every step of mobile app development, from conceptualization to deployment, delivering outstanding user experiences.',
+    name: 'App Developer',
+    description:
+      'As a capable Flutter developer, I excel at orchestrating every step of mobile app development, from conceptualization to deployment, delivering outstanding user experiences.',
     link: 'Explore More',
+    url: 'https://kurmi-sourav.vercel.app/' 
   },
   {
     name: 'UI/UX Designer',
-    description: 
-    'I use design tools to create clear and user-friendly designs and prototypes. My designs help businesses grow by making products that are easy to use and accessible to everyone.',
+    description:
+      'I use design tools to create clear and user-friendly designs and prototypes. My designs help businesses grow by making products that are easy to use and accessible to everyone.',
     link: 'Explore More',
+    url: 'https://kurmi-sourav.vercel.app/' 
   },
   {
     name: 'Photographer',
-    description: 
-    'I capture moments that tell stories. My lens transforms ordinary scenes into extraordinary memories, preserving emotions and experiences in timeless photographs.',
+    description:
+      'I capture moments that tell stories. My lens transforms ordinary scenes into extraordinary memories, preserving emotions and experiences in timeless photographs.',
     link: 'Explore More',
+    url: 'https://kurmi-sourav.vercel.app/' 
   },
-]
+];
+
 const Skills = () => {
   
   return (
@@ -71,10 +76,10 @@ const Skills = () => {
                     <p className='leading-tight font-secondary'>{description}</p>
                   </div>
                   <div className='flex flex-col flex-1 items-end'>
-                    <a href='#' className='btn w-9 h-9 mb-[42px] flex justify-center items-center'>
+                    <a href={url} className='btn w-9 h-9 mb-[42px] flex justify-center items-center'>
                       <BsArrowUpRight></BsArrowUpRight>
                     </a>
-                    <a href='#' className='text-gradient text-sm'>{link}</a>
+                    <a href={url} className='text-gradient text-sm'>{link}</a>
                   </div>
                 </div>
               )
